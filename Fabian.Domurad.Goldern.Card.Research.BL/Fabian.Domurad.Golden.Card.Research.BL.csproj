@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fabian.Domurad.Goldern.Card.Research.Data\Fabian.Domurad.Golden.Card.Research.Data.csproj" />
+    <ProjectReference Include="..\Fabian.Domurad.Goldern.Card.Research.Shared\Fabian.Domurad.Golden.Card.Research.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\" />
+    <Folder Include="Desk\Internal\" />
+    <Folder Include="Localization\Internal\" />
+  </ItemGroup>
+
+</Project>
